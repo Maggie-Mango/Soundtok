@@ -18,7 +18,13 @@ Anyone, from the casual listener and discoverer of new music to the veteran prod
 
 ## Navigation Bar
 
+Users can search for other users (i.e. @maggie) or hashtags (i.e. @cats). This allows members of SoundTok to view other projects and posts on the user's profile page or on the separate hashtag page.
+
 ## Studio
+
+The studio allows Soundtok users to remix their creations and download them into an MP3 which can later be posted on the feed. Music effects include layering, reverbe, fade in/out and trim
+
+![Screen Shot 2022-03-07 at 10 40 37 AM](https://user-images.githubusercontent.com/13864148/157066678-667ab554-def2-4aa0-bb2e-cd6a63fbd053.png)
 
 ## Feed
 
@@ -43,6 +49,8 @@ _Main Features_
 - Re-render the posts content when a user searches other hashtags from the page
 - Add animated wave effect
 
+![Screen Shot 2022-03-07 at 10 36 35 AM](https://user-images.githubusercontent.com/13864148/157065812-6c52c88d-5472-4ad4-b28a-8182804a9f53.png)
+
 ## Profile
 _Main Features_
 * View user's profile picture and biography
@@ -52,7 +60,8 @@ _Main Features_
 * Delete own songs and drafts
 * Remix selected song directly in the studio
 
-GIF TO BE ADDED
+![2022-03-07 09 50 32](https://user-images.githubusercontent.com/13864148/157065692-791abc7a-06de-4e16-8034-2a9392dcda0b.gif)
+
 
 ## Schema Design
 
@@ -62,6 +71,9 @@ The server utilizes a Postgres database on the backend with minimal JavaScript t
 
 
 ## Authentication
+
+Soundtok utilizes Auth0 for user account creation. Users can choose to login with social media or with their email. 
+Account data is safely secured in the database and sensitive data (such as passwords) are securely encrypted in Auth0.
 
 ## Tech Stack & Libraries
 
