@@ -65,9 +65,11 @@ _Main Features_
 
 ## Schema Design
 
+
+The server utilizes a Postgres database on the backend with minimal JavaScript transformation. Developers can test API endpoint responses and expected data shapes directly in Postman using our  [Soundtok API documentation](https://documenter.getpostman.com/view/14811382/UVkvJsHr).
+
 <img width="879" alt="Screen Shot 2022-03-05 at 12 14 01 PM" src="https://user-images.githubusercontent.com/13864148/156893333-b053f28a-325c-475e-9faa-701246130abc.png">
 
-The server utilizes a Postgres database on the backend with minimal JavaScript transformation.
 
 
 ## Authentication
